@@ -1,0 +1,259 @@
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    background-color: whitesmoke;
+    border: .0625em solid black;
+}
+
+.mono:link {
+    text-decoration: none;
+}
+
+.mono:visited {
+    text-decoration: none;
+}
+
+.mono:hover {
+    font-family: monospace;
+}
+
+.div {
+    background-color: whitesmoke;
+}
+
+.div.name {
+    float: left;
+    width: 23.33%;
+    margin-left: 10%;
+    background-color: #4aaaa5;
+    color: #d6d6dc;
+    text-align: center;
+}
+
+.div.name:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: #d6d6dc;
+    color: #4aaaa5;
+}
+
+.hding1 {
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.div.nav {
+    float: left;
+    height: 10%;
+    width: 20%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.noStyle1 {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+.li {
+    display: inline;
+    color: #4aaaa5;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background-image: url("../images/retina_wood/retina_wood_@2X.png");
+}
+
+.div.about {
+    float: left;
+    height: 80%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #d6d6dc;
+}
+
+.hding2 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, Times New Roman, serif;
+    padding-left: 2%;
+}
+
+.mypic {
+    float: left;
+    height: 40%;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+.p1 {
+    margin: 2%;
+}
+
+.portfolio {
+    float: left;
+    height: 70%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #d6d6dc;
+}
+
+.portpic1 {
+    float: left;
+    width: 50%;
+}
+
+.portpic2 {
+    float: left;
+    width: 50%;
+}
+
+.portpic2:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.labels1 {
+    text-decoration: none;
+}
+
+.labels2 {
+    width: 30%;
+    background-color: #d6d6dc;
+    color: #4aaaa5;
+    text-decoration: none;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.labels2:link {
+    text-decoration: none;
+}
+
+.labels2:visited {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+.labels2:hover {
+    background-color: #4aaaa5;
+    color: #d6d6dc;
+}
+
+.labels2:active {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+.div.contact {
+    float: left;
+    postion: relative;
+    height: 70%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #d6d6dc;
+}
+
+.div.connect {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #d6d6dc;
+    /*animation: fade 5s linear 2s infinite alternate;
+    -webkit-animation: fade 5s linear 2s infinite alternate;*/
+}
+
+.connect {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #d6d6dc;
+    animation: fade 5s linear 2s infinite alternate;
+    -webkit-animation: fade 3s linear 1s infinite alternate;
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0.0;}
+}
+
+.hding3 {
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.noStyle2 {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+.github {
+    height: 4em;
+    width: 4em;
+    padding-left: 26%;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.lnkdin {
+    height: 4em;
+    width: 4em;
+    float: left;
+}
+
+.stack {
+    height: 4em;
+    width: 4em;
+    float: left;
+}
+
+.name {
+    width: 50%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.email {
+    width: 50%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.message {
+    height: 10em;
+    width: 65%;
+    padding: 1% 3% 1% 3%;
+    margin-left: 2%;
+}
+
+.button {
+    width: 20%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.foot {
+    clear: both;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 0.75em;
+    color: #d6d6dc;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    border-top: 0.75em solid #9191a1;
+}
