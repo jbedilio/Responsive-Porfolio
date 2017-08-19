@@ -9,6 +9,10 @@ body {
     border: .0625em solid black;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .mono:link {
     text-decoration: none;
 }
@@ -27,8 +31,8 @@ body {
 
 .div.name {
     float: left;
-    width: 23.33%;
-    margin-left: 10%;
+    width: 30%;
+    margin-left: 9.5%;
     background-color: #4aaaa5;
     color: #d6d6dc;
     text-align: center;
@@ -204,20 +208,23 @@ body {
 .github {
     height: 4em;
     width: 4em;
-    padding-left: 26%;
     padding-top: 1.5%;
+    margin-left: 26%;
+    display: inline-block;
     float: left;
 }
 
 .lnkdin {
     height: 4em;
     width: 4em;
+    display: inline-block;
     float: left;
 }
 
 .stack {
     height: 4em;
     width: 4em;
+    display: inline-block;
     float: left;
 }
 
@@ -257,3 +264,45 @@ body {
     padding-bottom: 2%;
     border-top: 0.75em solid #9191a1;
 }
+
+@media screen and (max-width: 640px) {
+    
+    .div.name {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .hding1 {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .div.nav {
+        width: inherit;
+        margin-left: 32%;
+    }
+
+    .div.about {
+        margin: 5% 5% 0% 5%;
+        width: inherit;
+    }
+
+    .hding2 {
+        padding-left: 5%;
+    }
+
+    .mypic {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .div.connect {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .github {
+        margin-left: 32%;
+    }
+}
+
