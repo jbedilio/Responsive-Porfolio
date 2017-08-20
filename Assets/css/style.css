@@ -256,11 +256,13 @@ body {
 }
 
 .button {
-    width: 20%;
+    width: 22%;
+    font-size: 1.25em;
     margin-bottom: 1%;
     margin-left: 2%;
     background-color: #4aaaa5;
     color: #d6d6dc;
+    
 }
 
 .button:hover {
@@ -364,18 +366,18 @@ body {
     }
 
     .name {
-        width: 75%;
-        margin-left: 1%;
+        width: 96.75%;
+        margin-left: 1.5%;
     }
 
     .email {
-        width: 80%;
-        margin-left: 1%;
+        width: 96.75%;
+        margin-left: 1.5%;
     }
     
     .message {
-        width: 95%;
-        margin-left: 1%;
+        width: 96.75%;
+        margin-left: 1.5%;
     }
 
     .button {
@@ -439,6 +441,30 @@ body {
         text-align: left;
         padding-left: 9.5%;
         width: inherit;
+    }
+
+    .div.contact {
+        width: 90%;
+    }
+
+    .name {
+        width: 96.75%;
+        margin-left: 1.5%;
+    }
+
+    .email {
+        width: 96.75%;
+        margin-left: 1.5%;
+    }
+    
+    .message {
+        width: 96.75%;
+        margin-left: 1.5%;
+    }
+
+    .button {
+        width: 25%;
+        font-size: 2em;
     }
 
 
