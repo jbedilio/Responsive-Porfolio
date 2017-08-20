@@ -47,6 +47,7 @@ body {
 
 .hding1 {
     font-family: Georgia, Times, Times New Roman, serif;
+    text-shadow: 4px -4px 5px black;
 }
 
 .div.nav {
@@ -87,6 +88,7 @@ body {
 .hding2 {
     color: #4aaaa5;
     font-family: Georgia, Times, Times New Roman, serif;
+    text-shadow: 3px -4px 2px black;
     padding-left: 2%;
 }
 
@@ -118,7 +120,8 @@ body {
 
 .portpic2 {
     float: left;
-    width: 50%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .portpic2:hover {
@@ -131,12 +134,18 @@ body {
 }
 
 .labels2 {
-    width: 30%;
+    clear: both;
+    position: relative;
+    width: 45%;
     background-color: #d6d6dc;
     color: #4aaaa5;
     text-decoration: none;
-    margin-left: 10%;
-    text-align: center;
+    margin-left: 27%;
+    text-align: center
+}
+
+.labels2 {
+    text-shadow: 2.5px -2px 2px black;
 }
 
 .labels2:link {
@@ -278,6 +287,10 @@ body {
     border-top: 0.75em solid #9191a1;
 }
 
+.p2 {
+    text-shadow: 2px -1px black;
+}
+
 @media screen and (max-width: 640px) {
     
     .div.name {
@@ -336,12 +349,14 @@ body {
 
     .portpic2 {
         width: 95%;
+        margin-left: 0%;
     }
 
     .labels2 {
         width: 75%;
         height: inherit;
         font-size: 2.25em;
+        margin-left: 9.5%;
     }
 
     .div.contact {
@@ -369,10 +384,64 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+    .div.name {
+        width: 40%;
+        margin-left: 9.5%;
+    }
+
+    .div.nav {
+        height: inherit;
+        width: inherit;
+        margin-left: 18.25%;
+    }
+
+    .div.about {
+        width: 90%;
+    }
+
+    .mypic {
+        width: 65%;
+    }
+
+    .div.connect {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .div.about {
+        width: 90%;
+    }
+    
+    .mypic {
+        width: 65%;
+    }
+
+    .div.connect {
+        width: 90%;
+    }
+
+    .github {
+        margin-left: 35%;
+    }
+
+    .portfolio {
+        width: 90%;
+    }
+
+    .portpic2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .labels2 {
+        text-align: left;
+        padding-left: 30%;
+        width: inherit;
+    }
 
 
-} 
 
 
-
+}
