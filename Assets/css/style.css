@@ -308,5 +308,33 @@ body {
     .github {
         margin-left: 32%;
     }
+
+    .portfolio {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .portpic1 {
+        float: none;
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .portpic2 {
+        width: 95%;
+    }
+
+    .labels2 {
+        width: 75%;
+        height: inherit;
+        font-size: 2.25em;
+    }
 }
+
+@media screen and (max-width: 768px) {
+
+
+} 
+
+
 
