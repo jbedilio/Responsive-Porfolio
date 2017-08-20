@@ -466,8 +466,51 @@ body {
         width: 25%;
         font-size: 2em;
     }
+}
 
+@media screen and (max-width: 980px) and (min-width: 769px) {
 
+    .div.name {
+        margin-left: 14%;
+    }
 
+    .div.nav {
+        margin-left: 18.125%;
+    }
 
+    .div.about {
+        margin-left: 10%;
+    }
+
+    .div.connect {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    .github {
+        margin-left: 7.25%;
+    }
+
+    .mypic {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .p1 {
+        margin: 2% 5% 1% 5%;
+    }
+
+    .portfolio {
+        margin-left: 10%;
+    }
+
+    .portpic1 {
+        width: 100%;
+    }
+
+    .labels2 {
+        width: 0%;
+        margin-left: 40%;
+    }
 }
