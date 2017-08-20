@@ -160,7 +160,7 @@ body {
 
 .div.contact {
     float: left;
-    postion: relative;
+    position: relative;
     height: 70%;
     width: 50%;
     margin-left: 5%;
@@ -250,7 +250,21 @@ body {
     width: 20%;
     margin-bottom: 1%;
     margin-left: 2%;
+    background-color: #4aaaa5;
+    color: #d6d6dc;
 }
+
+.button:hover {
+    background-color: #d6d6dc;
+    color: #4aaaa5;
+}
+
+.button:visited {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+
 
 .foot {
     clear: both;
@@ -328,6 +342,30 @@ body {
         width: 75%;
         height: inherit;
         font-size: 2.25em;
+    }
+
+    .div.contact {
+        width: 90%;
+    }
+
+    .name {
+        width: 75%;
+        margin-left: 1%;
+    }
+
+    .email {
+        width: 80%;
+        margin-left: 1%;
+    }
+    
+    .message {
+        width: 95%;
+        margin-left: 1%;
+    }
+
+    .button {
+        width: 25%;
+        font-size: 2em;
     }
 }
 
