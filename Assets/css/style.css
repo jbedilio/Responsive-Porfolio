@@ -513,4 +513,13 @@ body {
         width: 0%;
         margin-left: 40%;
     }
+
+    .div.contact {
+        margin-left: 10%;
+    }
+
+    .name, .email, .message {
+        width: 96.75%;
+        margin-left: 1.5%;
+    }
 }
