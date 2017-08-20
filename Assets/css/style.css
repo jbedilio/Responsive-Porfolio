@@ -98,7 +98,6 @@ body {
     width: 60%;
     margin-left: 2%;
     margin-right: 2%;
-    display: inline-block;
 }
 
 .p1 {
@@ -194,8 +193,8 @@ body {
     margin-left: 10%;
     text-align: center;
     background-color: #d6d6dc;
-    animation: fade 5s linear 2s infinite alternate;
-    -webkit-animation: fade 3s linear 1s infinite alternate;
+    animation: fade 4s linear 2s infinite alternate;
+    -webkit-animation: fade 4s linear 2s infinite alternate;
 }
 
 @keyframes fade {
@@ -214,45 +213,34 @@ body {
 }
 
 .github {
+    float: left;
     height: 4em;
     width: 4em;
     padding-top: 1.5%;
     margin-left: 26%;
-    display: inline-block;
-    float: left;
 }
 
 .lnkdin {
+    float: left;
     height: 4em;
     width: 4em;
-    display: inline-block;
-    float: left;
 }
 
 .stack {
+    float: left;
     height: 4em;
     width: 4em;
-    display: inline-block;
-    float: left;
 }
 
-.name {
-    width: 50%;
+.name, .email, .message {
+    width: 96.75%;
     padding: 1% 3% 1% 3%;
-    margin-left: 2%;
-}
-
-.email {
-    width: 50%;
-    padding: 1% 3% 1% 3%;
-    margin-left: 2%;
+    margin-left: 1.5%;
 }
 
 .message {
-    height: 10em;
-    width: 65%;
-    padding: 1% 3% 1% 3%;
-    margin-left: 2%;
+    padding-top: 25%;
+    padding-bottom: 25px;
 }
 
 .button {
@@ -365,20 +353,10 @@ body {
         width: 90%;
     }
 
-    .name {
+    .name, .email, .message {
         width: 96.75%;
         margin-left: 1.5%;
-    }
-
-    .email {
-        width: 96.75%;
-        margin-left: 1.5%;
-    }
-    
-    .message {
-        width: 96.75%;
-        margin-left: 1.5%;
-    }
+    };
 
     .button {
         width: 25%;
