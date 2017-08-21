@@ -15,34 +15,33 @@ body {
 
 .mono:link {
     text-decoration: none;
+    color: #999;
 }
 
 .mono:visited {
     text-decoration: none;
+    color: #999;
 }
 
 .mono:hover {
     font-family: monospace;
-}
-
-.div {
-    background-color: whitesmoke;
+    color: #006;
 }
 
 .div.name {
     float: left;
     width: 30%;
     margin-left: 9.5%;
-    background-color: #4aaaa5;
-    color: #d6d6dc;
+    background-color: #006;
+    color: #999;
     text-align: center;
 }
 
 .div.name:hover {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background-color: #d6d6dc;
-    color: #4aaaa5;
+    background-color: #999;
+    color: #006;
 }
 
 .hding1 {
@@ -74,7 +73,8 @@ body {
     height: 90%;
     width: 90%;
     margin: auto;
-    background-image: url("../images/retina_wood/retina_wood_@2X.png");
+    background: url("../images/backgrounds/blueTechCircuit.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .div.about {
@@ -82,11 +82,11 @@ body {
     height: 80%;
     width: 50%;
     margin-left: 5%;
-    background-color: #d6d6dc;
+    background-color: rgba(214, 214, 220, 0);
 }
 
 .hding2 {
-    color: #4aaaa5;
+    color: #999;
     font-family: Georgia, Times, Times New Roman, serif;
     text-shadow: 3px -4px 2px black;
     padding-left: 2%;
@@ -102,6 +102,8 @@ body {
 
 .p1 {
     margin: 2%;
+    color: #fff;
+    text-shadow: .65px -2px black;
 }
 
 .portfolio {
@@ -109,7 +111,7 @@ body {
     height: 70%;
     width: 50%;
     margin-left: 5%;
-    background-color: #d6d6dc;
+    background-color: rgba(214, 214, 220, 0);
 }
 
 .portpic1 {
@@ -136,8 +138,8 @@ body {
     clear: both;
     position: relative;
     width: 45%;
-    background-color: #d6d6dc;
-    color: #4aaaa5;
+    background-color: rgba(214, 214, 220, 0);
+    color: #fff;
     text-decoration: none;
     margin-left: 27%;
     text-align: center
@@ -152,13 +154,13 @@ body {
 }
 
 .labels2:visited {
-    background-color: #4aaaa5;
-    color: black;
+    background-color: rgba(214, 214, 220, 0);
+    color: #fff;
 }
 
 .labels2:hover {
-    background-color: #4aaaa5;
-    color: #d6d6dc;
+    background-color: rgba(214, 214, 220, 0);
+    color: #999;
 }
 
 .labels2:active {
@@ -172,7 +174,7 @@ body {
     height: 70%;
     width: 50%;
     margin-left: 5%;
-    background-color: #d6d6dc;
+    background-color: rgba(214, 214, 220, 0);
 }
 
 .div.connect {
@@ -181,7 +183,7 @@ body {
     width: 30%;
     margin-left: 10%;
     text-align: center;
-    background-color: #d6d6dc;
+    background-color: rgba(214, 214, 220, 0);
     /*animation: fade 5s linear 2s infinite alternate;
     -webkit-animation: fade 5s linear 2s infinite alternate;*/
 }
@@ -248,19 +250,19 @@ body {
     font-size: 1.25em;
     margin-bottom: 1%;
     margin-left: 2%;
-    background-color: #4aaaa5;
-    color: #d6d6dc;
+    background-color:#006;
+    color:#999;
     
 }
 
 .button:hover {
-    background-color: #d6d6dc;
-    color: #4aaaa5;
+    background-color: #999;
+    color: #006;
 }
 
 .button:visited {
-    background-color: #4aaaa5;
-    color: black;
+    background-color: #999;
+    color: #006;
 }
 
 
@@ -268,7 +270,7 @@ body {
 .foot {
     clear: both;
     width: 100%;
-    background-color: #4aaaa5;
+    background-color: rgba(214, 214, 220, 0);
     text-align: center;
     font-size: 0.75em;
     color: #d6d6dc;
@@ -379,6 +381,7 @@ body {
 
     .div.about {
         width: 90%;
+        margin-left: 4%;
     }
 
     .mypic {
@@ -389,17 +392,9 @@ body {
         width: 90%;
         margin-left: 5%;
     }
-
-    .div.about {
-        width: 90%;
-    }
     
     .mypic {
         width: 65%;
-    }
-
-    .div.connect {
-        width: 90%;
     }
 
     .github {
@@ -456,8 +451,12 @@ body {
         margin-left: 18.125%;
     }
 
+    .hding2 {
+        padding-left: 5%;
+    }
+
     .div.about {
-        margin-left: 10%;
+        margin-left: 8%;
     }
 
     .div.connect {
